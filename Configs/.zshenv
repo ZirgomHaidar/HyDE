@@ -219,6 +219,9 @@ function _load_post_init() {
     # User rc file always overrides
     [[ -f $HOME/.zshrc ]] && source $HOME/.zshrc
 
+    # Zoxide
+    eval "$(zoxide init zsh)"
+    eval "$(_AUTO_CPUFREQ_COMPLETE=zsh_source auto-cpufreq)"
 }
 
 function _load_if_terminal {

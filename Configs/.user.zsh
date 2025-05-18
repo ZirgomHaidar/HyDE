@@ -2,11 +2,7 @@
 # Commands to execute on startup (before the prompt is shown)
 # This is a good place to load graphic/ascii art, display system information, etc.
 
-if command -v pokego >/dev/null; then
-    pokego --no-title -r 1,3,6
-elif command -v pokemon-colorscripts >/dev/null; then
-    pokemon-colorscripts --no-title -r 1,3,6
-elif command -v fastfetch >/dev/null; then
+if command -v fastfetch >/dev/null; then
     fastfetch --logo-type kitty
 fi
 
@@ -45,6 +41,7 @@ fi
 # manually add your oh-my-zsh plugins here
 plugins=(
     "sudo"
+    "zsh-256color"
     # "git"                     # (default)
     # "zsh-autosuggestions"     # (default)
     # "zsh-syntax-highlighting" # (default)
