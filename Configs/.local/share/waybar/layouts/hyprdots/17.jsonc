@@ -21,7 +21,8 @@
         "orientation": "inherit",
         "modules": [
             "hyprland/workspaces",
-            "wlr/taskbar"
+            "wlr/taskbar",
+            "mpris"
         ]
     },
     "modules-center": [
@@ -37,6 +38,7 @@
             "custom/updates",
             "custom/keybindhint",
             "custom/gamemode",
+            "battery",
             "custom/weather"
         ]
     },
@@ -53,7 +55,6 @@
             "custom/bluetooth",
             "pulseaudio",
             "pulseaudio#microphone",
-            "battery",
             "custom/gpuinfo",
             "custom/cpuinfo",
             "custom/sensorsinfo",

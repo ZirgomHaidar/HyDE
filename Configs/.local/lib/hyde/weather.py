@@ -217,7 +217,7 @@ try:
     )  # Number of days to show the forecast for (default: 3)
 except ValueError:
     FORECAST_DAYS = 3
-get_location = os.getenv("WEATHER_LOCATION", "").replace(
+get_location = os.getenv("WEATHER_LOCATION", "bangalore").replace(
     " ", "_"
 )  # Name of the location to get the weather from (default: '')
 # Parse the location to wttr.in format (snake_case)
