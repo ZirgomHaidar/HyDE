@@ -37,7 +37,8 @@
             "custom/updates",
             "custom/keybindhint",
             "custom/gamemode",
-            "custom/weather"
+            "custom/weather",
+            "battery"
         ]
     },
     "modules-right": [
@@ -53,10 +54,10 @@
             "custom/bluetooth",
             "pulseaudio",
             "pulseaudio#microphone",
-            "battery",
             "custom/gpuinfo",
             "custom/cpuinfo",
             "custom/sensorsinfo",
+            "custom/cliphist",
             "custom/swaync",
             "custom/hyde-menu"
         ]
