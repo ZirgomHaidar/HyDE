@@ -5,8 +5,10 @@ update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 
 [General]
 GlobalViewProps=false
+ShowFullPath=true
+ShowFullPathInTitlebar=true
 ShowSelectionToggle=false
-ShowStatusBar=false
+ShowStatusBar=FullWidth
 ShowToolTips=true
 Version=202
 ViewPropsTimestamp=2023,4,26,16,58,48.324
@@ -32,7 +34,6 @@ MenuBar=Disabled
 ToolBarsMovable=Enabled
 
 [MainWindow][Toolbar mainToolBar]
-IconSize=16
 ToolButtonStyle=IconOnly
 
 [PlacesPanel]

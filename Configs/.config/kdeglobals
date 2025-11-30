@@ -1,11 +1,22 @@
 [Colors:View]
-BackgroundNormal=#00000000
+BackgroundNormal=#1B170EFF
 
 [General]
 TerminalApplication=kitty
 
 [Icons]
-Theme=Will be overwritten on themeswitch
+Theme=Tela-circle-dracula
+
+[KDE]
+ShowDeleteCommand=false
+widgetStyle=kvantum
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
 
 [UiSettings]
 ColorScheme=colors

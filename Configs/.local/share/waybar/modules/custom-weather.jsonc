@@ -3,7 +3,7 @@
     "exec": "hyde-shell weather",
     "tooltip": true,
     "format": "{0}",
-    "interval": 30,
+    "interval": 300,
     "return-type": "json"
   }
 }
